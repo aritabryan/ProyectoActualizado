@@ -6,7 +6,7 @@ package proyectobryanarita_eduardovaldez;
 
 /**
  *
- * @author BJAL
+ * @author guali
  */
 public class ProyectoBryanArita_EduardoValdez {
 
@@ -14,7 +14,8 @@ public class ProyectoBryanArita_EduardoValdez {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Menu x = new Menu();
+        x.setVisible(true);
     }
     
 }

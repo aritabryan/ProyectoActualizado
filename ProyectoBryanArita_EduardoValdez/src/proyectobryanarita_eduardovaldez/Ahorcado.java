@@ -1,4 +1,4 @@
-/*;
+/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
@@ -39,7 +39,7 @@ public class Ahorcado extends javax.swing.JFrame {
         imagenes[4] = new ImageIcon(getClass().getResource("/imagenes/ahorcadoPT5.jpg"));
         imagenes[5] = new ImageIcon(getClass().getResource("/imagenes/ahorcadoPT6.jpg"));
         imagenes[6] = new ImageIcon(getClass().getResource("/imagenes/ahorcadoPT7.jpg"));
-        imagenes[7] = new ImageIcon(getClass().getResource("/imagenes/ahorcadoPT8.jpg"));
+//        imagenes[7] = new ImageIcon(getClass().getResource("/imagenes/ahorcadoPT8.jpg"));
 
         botones[0] = A;
         botones[1] = B;
@@ -67,7 +67,7 @@ public class Ahorcado extends javax.swing.JFrame {
         botones[23] = W;
         botones[24] = X;
         botones[25] = Y;
-        botones[26] = Z;
+//        botones[26] = Z;
 
         mensajes[0] = "Honduras".toUpperCase();
         mensajes[1] = "Guante".toUpperCase();
@@ -84,7 +84,7 @@ public class Ahorcado extends javax.swing.JFrame {
         mensajes[12] = "diamantes".toUpperCase();
         mensajes[13] = "psicopata".toUpperCase();
         mensajes[14] = "mercedes".toUpperCase();
-        mensajes[15] = "romanticos".toUpperCase();
+//        mensajes[15] = "romanticos".toUpperCase();
 
     }
 
@@ -148,6 +148,11 @@ public class Ahorcado extends javax.swing.JFrame {
         D.setText("jButton3");
 
         E.setText("jButton4");
+        E.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EActionPerformed(evt);
+            }
+        });
 
         F.setText("jButton5");
 
@@ -264,7 +269,7 @@ public class Ahorcado extends javax.swing.JFrame {
                                                 .addComponent(Z))))))))
                     .addComponent(M)
                     .addComponent(I))
-                .addGap(0, 78, Short.MAX_VALUE))
+                .addGap(0, 74, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -340,6 +345,10 @@ public class Ahorcado extends javax.swing.JFrame {
     private void HActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_HActionPerformed
+
+    private void EActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_EActionPerformed
 
     /**
      * @param args the command line arguments
